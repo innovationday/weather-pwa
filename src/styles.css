@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.row weather-card {
+    display: none;
+}
+.row weather-card:first-child {
+  display: block; 
+  width: 100%;
+}
+weather-card .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: inline-block;
+    margin-right: 20px;
+}
